@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="..\..\ZwLib\FrameWork\DataInterface\Siemens\Dave.c">
+      <Filter>Extern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ZwLib\FrameWork\DataInterface\Siemens\DaveDataSource.c">
+      <Filter>Extern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ZwLib\FrameWork\DataInterface\Siemens\DaveDtSrcIntfc.c">
+      <Filter>Extern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ZwLib\FrameWork\DataInterface\Siemens\DaveInterface.c">
+      <Filter>Extern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ZwLib\FrameWork\DataInterface\Siemens\DavePDU.c">
+      <Filter>Extern</Filter>
+    </ClCompile>
+    <ClCompile Include="ZtsyLib.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ZtsyLib.h" />
+    <ClInclude Include="..\..\ZwLib\FrameWork\DataInterface\Siemens\Dave.h">
+      <Filter>Extern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ZwLib\FrameWork\DataInterface\Siemens\DaveDataSource.h">
+      <Filter>Extern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ZwLib\FrameWork\DataInterface\Siemens\DaveInterface.h">
+      <Filter>Extern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ZwLib\FrameWork\DataInterface\Siemens\DavePDU.h">
+      <Filter>Extern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ZwLib\FrameWork\DataInterface\Siemens\Log.h">
+      <Filter>Extern</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Extern">
+      <UniqueIdentifier>{1a7fabd9-1bea-4b50-9db7-d52ea6ef316d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
